@@ -13,6 +13,7 @@ public class VatFeeCalculator {
 
         double vatFee = cost * vatRate;
         double costWithFee = vatFee + cost;
+        System.out.println("Vat Rate:" + vatRate);
         System.out.println("Vat Fee:" + vatFee);
         System.out.println("Total:" + costWithFee);
     }
