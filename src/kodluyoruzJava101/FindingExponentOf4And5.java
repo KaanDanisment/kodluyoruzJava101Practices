@@ -10,10 +10,10 @@ public class FindingExponentOf4And5 {
 
         for (int i = 1, j = 1; i <= n || j <= n; i*=4, j*=5){
             if (i < n){
-                System.out.println(p + "th power of 4: " + i);
+                System.out.println(p + ". power of 4: " + i);
             }
             if (j < n){
-                System.out.println(p + "th power of 5: " + j);
+                System.out.println(p + ". power of 5: " + j);
                 p++;
             }
         }
